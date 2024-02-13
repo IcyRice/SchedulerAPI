@@ -236,20 +236,6 @@ public class Scheduler {
      * Limited method signature of
      * suggestTimeslots(List<String> emailParticipants, int count,
      *                  List<MeetingDays> preferredDays, List<Integer> preferredHours)
-     * - Defaults to count = 1 of returned suggested timeslots.
-     * - Invokes with defaultPreferredDays, defaultPreferredHours
-     * @param emailParticipants list of strings of emails of participants for suggested meeting timeslot
-     * @return                  ArrayList<LocalDateTime> output result of type LocalDateTime
-     */
-    public ArrayList<LocalDateTime> suggestTimeslots(List<String> emailParticipants) {
-        return suggestTimeslots(emailParticipants, 1, defaultPreferredDays, defaultPreferredHours);
-    }
-
-    /**
-     * 5) Suggest one or more available timeslots for meetings given a group of persons.
-     * Limited method signature of
-     * suggestTimeslots(List<String> emailParticipants, int count,
-     *                  List<MeetingDays> preferredDays, List<Integer> preferredHours)
      * - Invokes with defaultPreferredDays, defaultPreferredHours
      * @param emailParticipants list of strings of emails of participants for suggested meeting timeslot
      * @param count             int amount of number of timeslots suggested
@@ -257,6 +243,20 @@ public class Scheduler {
      */
     public ArrayList<LocalDateTime> suggestTimeslots(List<String> emailParticipants, int count) {
         return suggestTimeslots(emailParticipants, count, defaultPreferredDays, defaultPreferredHours);
+    }
+
+    /**
+     * 5) Suggest one or more available timeslots for meetings given a group of persons.
+     * Limited method signature of
+     * suggestTimeslots(List<String> emailParticipants, int count,
+     *                  List<MeetingDays> preferredDays, List<Integer> preferredHours)
+     * - Defaults to count = 1 of returned suggested timeslots.
+     * - Invokes with defaultPreferredDays, defaultPreferredHours
+     * @param emailParticipants list of strings of emails of participants for suggested meeting timeslot
+     * @return                  ArrayList<LocalDateTime> output result of type LocalDateTime
+     */
+    public ArrayList<LocalDateTime> suggestTimeslots(List<String> emailParticipants) {
+        return suggestTimeslots(emailParticipants, 1, defaultPreferredDays, defaultPreferredHours);
     }
 
     /**

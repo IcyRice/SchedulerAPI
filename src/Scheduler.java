@@ -37,6 +37,7 @@ public class Scheduler {
 
     /**
      * 1) Create persons with a name and unique email.
+     * Will print person info to console.
      * @param name  String for name of Person instance
      * @param email String for valid email address and unique identifier for Person instance
      * @throws Exception on invalid contact info or in case of duplicate unique email
@@ -62,6 +63,7 @@ public class Scheduler {
      * 2) Create meetings involving one or more persons at a given time slot
      * Method assumes the caller wants to create a new meeting for a given list of emails that have already
      * been added by createPerson(name, email)
+     * Will print meeting info to console.
      * @param stringTimeSlot String with date pattern "HH-dd-MM-yyyy", using 24-hour count.
      *                       E.g. "14-01-01-2024" returns 2024-01-01T14:00
      *                       Intentionally disregards minutes, seconds, etc. for the sake of whole hour timeslots.
@@ -103,6 +105,7 @@ public class Scheduler {
     /**
      * 4) Show the schedule, i.e., the upcoming meetings, for a given person.
      * Attempts to find existing Person from given email String.
+     * Will print meetings' info to console.
      * @param email String of email of Person to show schedule for.
      */
     public void showScheduleForPerson(String email) {
@@ -119,6 +122,7 @@ public class Scheduler {
     /**
      * 4) Show the schedule, i.e., the upcoming meetings, for a given person.
      * Assumes given Person already exists.
+     * Will print meetings' info to console.
      * @param person Person instance to show (print) schedule for.
      */
     public void showScheduleForPerson(Person person) {
@@ -165,6 +169,7 @@ public class Scheduler {
      * 'preferredDays' and 'preferredHours'.
      * Checks each participant's schedule to find timeslots where all are available.
      * Will loop until given count of suggested timeslots has been reached.
+     * Will print output to console before returning.
      *
      * @param emailParticipants List of Strings of emails of participants for suggested meeting timeslot
      * @param count             int amount of number of timeslots suggested

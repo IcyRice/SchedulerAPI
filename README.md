@@ -18,6 +18,8 @@ For further documentation, please refer to the javadoc-style commenting in Sched
 Scheduler.java is used by Main.java to run a simple scripted console demo.
 Feel free to try different things in the main method when interacting with Scheduler. In order to not spend too much additional time on the assignment, I've omitted to implement unit tests. But I have considered a fair few potential fail-cases, that might be challenged.
 
+* Note that the suggestTimeslots-method bases its initial suggestion on the 'currentTime' field set to 'LocalDateTime.now()'. It looks at today, and tries to suggest timeslots starting tomorrow at index 0 of 'preferredHours'.
+
 ---
 
 
@@ -28,14 +30,15 @@ Scheduler()
 createPerson(String name, String email)
 createMeeting(String stringTimeSlot, List<String> emailParticipants)
 showScheduleForPerson(String email)
-showScheduleForPerson(Person person)
+~showScheduleForPerson(Person person)~
 getScheduleForPerson(String email)
-getScheduleForPerson(Person person)
+~getScheduleForPerson(Person person)~
 suggestTimeslots(List<String> emailParticipants, int count, List<MeetingDays> preferredDays, List<Integer> preferredHours)
 suggestTimeslots(List<String> emailParticipants, int count)
 suggestTimeslots(List<String> emailParticipants)
 ```
 
+The public methods taking a 'Person' as param might be disregarded since 'Person' is not accessible externally.
 
 ---
 

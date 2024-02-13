@@ -13,7 +13,7 @@ public class Scheduler {
 
     private final List<MeetingDays> defaultPreferredDays;
     private final List<Integer> defaultPreferredHours; // preferred timeslots could be migrated to each Person
-    // in a more advanced version
+                                                       // in a more advanced version
     private final ArrayList<Person> people;
     private final ArrayList<Meeting> meetings;
     private LocalDateTime currentTime;
@@ -46,7 +46,6 @@ public class Scheduler {
         if (name == null || email == null) {
             throw new InvalidParameterException("String name and String email must be not-null");
         }
-
         if (name.isEmpty() || !isValidEmail(email)) {
             throw new InvalidParameterException("Person error: Invalid contact information.");
         }
@@ -191,7 +190,9 @@ public class Scheduler {
         // Get ArrayList of Persons from given emails
         ArrayList<Person> participants = new ArrayList<>();
         try {
-            for (String email : emailParticipants) participants.add(getPersonFromEmail(email));
+            for (String email : emailParticipants) {
+                participants.add(getPersonFromEmail(email));
+            }
         } catch (Exception e) {
             System.out.println(e);
         }

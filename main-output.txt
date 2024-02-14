@@ -1,0 +1,176 @@
+C:\Users\rall1\.jdks\openjdk-21.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\lib\idea_rt.jar=61035:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath G:\Git\Deltek\API\SchedulerAPI\out\production\SchedulerAPI Main
+> Successfully added new person: Test0 test0@person.com
+> Successfully added new person: Test1 test1@person.com
+> Successfully added new person: Test2 test2@person.com
+> Successfully added new person: Test3 test3@person.com
+> Successfully added new person: Test4 test4@person.com
+> Successfully added new person: Test5 test5@person.com
+> Successfully added new person: Test6 test6@person.com
+> Successfully added new person: Test7 test7@person.com
+> Successfully added new person: Test8 test8@person.com
+> Successfully added new person: Test9 test9@person.com
+
+> Successfully created new meeting.
+Displaying Meeting at: 2024-02-21T09:00 - WEDNESDAY
+    Participants:
+    Test0|test0@person.com
+    Test1|test1@person.com
+
+> Successfully created new meeting.
+Displaying Meeting at: 2024-02-21T09:00 - WEDNESDAY
+    Participants:
+    Test2|test2@person.com
+    Test3|test3@person.com
+    Test4|test4@person.com
+
+> Successfully created new meeting.
+Displaying Meeting at: 2024-02-21T10:00 - WEDNESDAY
+    Participants:
+    Test0|test0@person.com
+    Test2|test2@person.com
+
+> Successfully created new meeting.
+Displaying Meeting at: 2024-02-21T13:00 - WEDNESDAY
+    Participants:
+    Test0|test0@person.com
+    Test2|test2@person.com
+
+> Successfully created new meeting.
+Displaying Meeting at: 2024-02-21T14:00 - WEDNESDAY
+    Participants:
+    Test0|test0@person.com
+    Test2|test2@person.com
+
+## Upcoming meetings for Test0|test0@person.com ##
+Displaying Meeting at: 2024-02-21T09:00 - WEDNESDAY
+    Participants:
+    Test0|test0@person.com
+    Test1|test1@person.com
+Displaying Meeting at: 2024-02-21T10:00 - WEDNESDAY
+    Participants:
+    Test0|test0@person.com
+    Test2|test2@person.com
+Displaying Meeting at: 2024-02-21T13:00 - WEDNESDAY
+    Participants:
+    Test0|test0@person.com
+    Test2|test2@person.com
+Displaying Meeting at: 2024-02-21T14:00 - WEDNESDAY
+    Participants:
+    Test0|test0@person.com
+    Test2|test2@person.com
+
+Preferred days: [MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY]
+Preferred hours: [9, 10, 13, 14]
+    checking forward starting at: 2024-02-15T09:00 THURSDAY
+    2024-02-15T09:00 THURSDAY is available for all participants!  (Timeslots found: 1 / 10)
+    2024-02-15T10:00 THURSDAY is available for all participants!  (Timeslots found: 2 / 10)
+    2024-02-15T13:00 THURSDAY is available for all participants!  (Timeslots found: 3 / 10)
+    2024-02-15T14:00 THURSDAY is available for all participants!  (Timeslots found: 4 / 10)
+    2024-02-16T09:00 FRIDAY is available for all participants!  (Timeslots found: 5 / 10)
+    2024-02-16T10:00 FRIDAY is available for all participants!  (Timeslots found: 6 / 10)
+    2024-02-16T13:00 FRIDAY is available for all participants!  (Timeslots found: 7 / 10)
+    2024-02-16T14:00 FRIDAY is available for all participants!  (Timeslots found: 8 / 10)
+    2024-02-19T09:00 MONDAY is available for all participants!  (Timeslots found: 9 / 10)
+    2024-02-19T10:00 MONDAY is available for all participants!  (Timeslots found: 10 / 10)
+> Suggesting Timeslots for Meeting with Participants: [test0@person.com, test1@person.com, test2@person.com, test3@person.com, test4@person.com]
+ [2024-02-15T09:00, 2024-02-15T10:00, 2024-02-15T13:00, 2024-02-15T14:00, 2024-02-16T09:00, 2024-02-16T10:00, 2024-02-16T13:00, 2024-02-16T14:00, 2024-02-19T09:00, 2024-02-19T10:00]
+
+> Successfully created new meeting.
+Displaying Meeting at: 2024-02-14T09:00 - WEDNESDAY
+    Participants:
+    Test2|test2@person.com
+    Test3|test3@person.com
+    Test4|test4@person.com
+
+> Successfully created new meeting.
+Displaying Meeting at: 2024-02-14T10:00 - WEDNESDAY
+    Participants:
+    Test2|test2@person.com
+    Test3|test3@person.com
+    Test4|test4@person.com
+
+> Successfully created new meeting.
+Displaying Meeting at: 2024-02-14T13:00 - WEDNESDAY
+    Participants:
+    Test2|test2@person.com
+    Test3|test3@person.com
+    Test4|test4@person.com
+
+> Successfully created new meeting.
+Displaying Meeting at: 2024-02-14T14:00 - WEDNESDAY
+    Participants:
+    Test2|test2@person.com
+    Test3|test3@person.com
+    Test4|test4@person.com
+
+> Successfully created new meeting.
+Displaying Meeting at: 2024-02-15T09:00 - THURSDAY
+    Participants:
+    Test2|test2@person.com
+    Test3|test3@person.com
+    Test4|test4@person.com
+
+¤ attempted createMeeting at: 2024-02-14T10:00 - Some participants not available at timeslot
+
+> Successfully created new meeting.
+Displaying Meeting at: 2024-02-15T10:00 - THURSDAY
+    Participants:
+    Test2|test2@person.com
+    Test3|test3@person.com
+    Test4|test4@person.com
+
+> Successfully created new meeting.
+Displaying Meeting at: 2024-02-15T13:00 - THURSDAY
+    Participants:
+    Test2|test2@person.com
+    Test3|test3@person.com
+    Test4|test4@person.com
+
+> Successfully created new meeting.
+Displaying Meeting at: 2024-02-15T14:00 - THURSDAY
+    Participants:
+    Test2|test2@person.com
+    Test3|test3@person.com
+    Test4|test4@person.com
+
+Preferred days: [MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY]
+Preferred hours: [9, 10, 13, 14]
+    checking forward starting at: 2024-02-15T09:00 THURSDAY
+    2024-02-16T09:00 FRIDAY is available for all participants!  (Timeslots found: 1 / 5)
+    2024-02-16T10:00 FRIDAY is available for all participants!  (Timeslots found: 2 / 5)
+    2024-02-16T13:00 FRIDAY is available for all participants!  (Timeslots found: 3 / 5)
+    2024-02-16T14:00 FRIDAY is available for all participants!  (Timeslots found: 4 / 5)
+    2024-02-19T09:00 MONDAY is available for all participants!  (Timeslots found: 5 / 5)
+> Suggesting Timeslots for Meeting with Participants: [test0@person.com, test2@person.com]
+ [2024-02-16T09:00, 2024-02-16T10:00, 2024-02-16T13:00, 2024-02-16T14:00, 2024-02-19T09:00]
+
+Preferred days: [MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY]
+Preferred hours: [9, 10, 13, 14]
+    checking forward starting at: 2024-02-15T09:00 THURSDAY
+    2024-02-16T09:00 FRIDAY is available for all participants!  (Timeslots found: 1 / 1)
+> Suggesting Timeslots for Meeting with Participants: [test0@person.com, test2@person.com]
+ [2024-02-16T09:00]
+
+Preferred days: [MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY]
+Preferred hours: [9, 10, 13, 14]
+    checking forward starting at: 2024-02-15T09:00 THURSDAY
+    2024-02-16T09:00 FRIDAY is available for all participants!  (Timeslots found: 1 / 5)
+    2024-02-16T10:00 FRIDAY is available for all participants!  (Timeslots found: 2 / 5)
+    2024-02-16T13:00 FRIDAY is available for all participants!  (Timeslots found: 3 / 5)
+    2024-02-16T14:00 FRIDAY is available for all participants!  (Timeslots found: 4 / 5)
+    2024-02-19T09:00 MONDAY is available for all participants!  (Timeslots found: 5 / 5)
+> Suggesting Timeslots for Meeting with Participants: [test0@person.com, test2@person.com]
+ [2024-02-16T09:00, 2024-02-16T10:00, 2024-02-16T13:00, 2024-02-16T14:00, 2024-02-19T09:00]
+
+Preferred days: [MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY]
+Preferred hours: [9, 10, 13, 14]
+    checking forward starting at: 2024-02-15T09:00 THURSDAY
+    2024-02-16T09:00 FRIDAY is available for all participants!  (Timeslots found: 1 / 5)
+    2024-02-16T10:00 FRIDAY is available for all participants!  (Timeslots found: 2 / 5)
+    2024-02-16T13:00 FRIDAY is available for all participants!  (Timeslots found: 3 / 5)
+    2024-02-16T14:00 FRIDAY is available for all participants!  (Timeslots found: 4 / 5)
+    2024-02-19T09:00 MONDAY is available for all participants!  (Timeslots found: 5 / 5)
+> Suggesting Timeslots for Meeting with Participants: [test0@person.com, test2@person.com]
+ [2024-02-16T09:00, 2024-02-16T10:00, 2024-02-16T13:00, 2024-02-16T14:00, 2024-02-19T09:00]
+
+Process finished with exit code 0

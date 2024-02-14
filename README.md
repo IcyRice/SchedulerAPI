@@ -38,7 +38,7 @@ suggestTimeslots(List<String> emailParticipants, int count)
 suggestTimeslots(List<String> emailParticipants)
 ```
 
-The public methods taking a 'Person' as param might be disregarded since 'Person' is not accessible externally.
+The public methods taking a 'Person' as param might be disregarded since 'Person' is not supposed to be accessible externally.
 
 ---
 
